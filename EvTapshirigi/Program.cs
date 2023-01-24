@@ -43,5 +43,9 @@ namespace EvTapshirigi
             } while (!command.ToLower().Equals("quit"));
         }
     }
+<<<<<<< HEAD
     
 }
+=======
+}
+>>>>>>> 4a33638a3d7aef43b256ff5c22fb9987c25faece

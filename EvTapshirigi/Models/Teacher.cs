@@ -13,7 +13,11 @@ namespace EvTapshirigi.Models
             string groups = "";
             foreach (var group in Groups)
             {
+<<<<<<< HEAD
                 groups += $"{group.Id} {group.Name}\n";
+=======
+               groups += $"{group.Id} {group.Name}\n";
+>>>>>>> 4a33638a3d7aef43b256ff5c22fb9987c25faece
             }
 
             return $"Id:{Id}\nAd Soyad Fenn:{FirstName} {LastName} {Subject}\nGrouplar:\n{groups}";
