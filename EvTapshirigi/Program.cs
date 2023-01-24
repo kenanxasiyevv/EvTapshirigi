@@ -13,7 +13,6 @@ namespace EvTapshirigi
             {
                 Console.Write("Enter Command: ");
                 command = Console.ReadLine();
-                Console.WriteLine("Muellim ugurla elave edildi");
 
                 if (command.ToLower().Equals("add teacher"))
                 {
@@ -34,6 +33,7 @@ namespace EvTapshirigi
                     };
 
                     teacherManager.Add(teacher);
+                    Console.WriteLine("Muellim ugurla elave edildi!");
 
                 }
                 else if (command.ToLower().Equals("print teacher"))
