@@ -1,6 +1,6 @@
 ﻿using EvTapshirigi.Models;
 
-namespace EvTapshirigi.Services
+namespace EvTapshirigi.Services.Contracts
 {
     internal interface IPrintService
     {

@@ -1,12 +1,12 @@
 ﻿using EvTapshirigi.Models;
-using EvTapshirigi.Services;
+using EvTapshirigi.Services.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EvTapshirigi.Managers
+namespace EvTapshirigi.Services
 {
     internal class TeacherManager : ICrudService, IPrintService
     {

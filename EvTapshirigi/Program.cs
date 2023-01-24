@@ -1,5 +1,5 @@
-﻿using EvTapshirigi.Managers;
-using EvTapshirigi.Models;
+﻿using EvTapshirigi.Models;
+using EvTapshirigi.Services;
 
 namespace EvTapshirigi
 {
@@ -33,6 +33,7 @@ namespace EvTapshirigi
                     };
 
                     teacherManager.Add(teacher);
+                    Console.WriteLine("Muellim ugurla elave edildi!");
 
                 }
                 else if (command.ToLower().Equals("print teacher"))
@@ -42,4 +43,5 @@ namespace EvTapshirigi
             } while (!command.ToLower().Equals("quit"));
         }
     }
+    
 }

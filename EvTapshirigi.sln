@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvTapshirigi", "EvTapshirigi\EvTapshirigi.csproj", "{2193B8F9-FB17-449E-905D-69CB131F249F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvTapshirigi", "EvTapshirigi\EvTapshirigi.csproj", "{37044EF7-BA3C-483A-8F96-B3DDDD0EF9AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2193B8F9-FB17-449E-905D-69CB131F249F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2193B8F9-FB17-449E-905D-69CB131F249F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2193B8F9-FB17-449E-905D-69CB131F249F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2193B8F9-FB17-449E-905D-69CB131F249F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37044EF7-BA3C-483A-8F96-B3DDDD0EF9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37044EF7-BA3C-483A-8F96-B3DDDD0EF9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37044EF7-BA3C-483A-8F96-B3DDDD0EF9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37044EF7-BA3C-483A-8F96-B3DDDD0EF9AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A5759DB5-F6CD-48D0-9E07-D49A5385A239}
+		SolutionGuid = {747705E9-4AA3-426D-87F8-EF51EF22B3F9}
 	EndGlobalSection
 EndGlobal
