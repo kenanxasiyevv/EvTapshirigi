@@ -47,7 +47,8 @@ namespace EvTapshirigi
                         }
 
                     };
-                    teacherManager.Add(teacher, teacher1);
+                    teacherManager.Add(teacher);
+                    teacherManager.Add(teacher1);
                     Console.WriteLine("Muellim ugurla elave edildi!");
 
                 }
