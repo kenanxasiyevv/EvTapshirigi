@@ -9,7 +9,7 @@ namespace EvTapshirigi.Services.Contracts
 {
     internal interface ICrudService
     {
-        void Add(Entity entity,Entity entity1);
+        void Add(Entity entity);
         void Update(int id, Entity entity);
         void Delete(int id);
         Entity Get(int id);
