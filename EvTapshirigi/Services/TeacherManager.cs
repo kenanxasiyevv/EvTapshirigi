@@ -13,7 +13,7 @@ namespace EvTapshirigi.Services
     {
         private Teacher[] _teachers = new Teacher[50];
         private int _currentIndex;
-        public void Add(Entity entity,Entity entity1)
+        public void Add(Entity entity)
         {
             if (_currentIndex > 49)
             {
@@ -21,7 +21,6 @@ namespace EvTapshirigi.Services
                 return;
             }
             _teachers[_currentIndex++] = (Teacher)entity;
-            _teachers[_currentIndex++] = (Teacher)entity1;
         }
 
         public void Delete(int id)
